@@ -1,5 +1,11 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-<WelcomePage />
-{{!-- Feel free to remove this! --}}
-
+<div class="header">
+    <div class="logo">{{#link-to "angeldresses"}}<img width="180px" src="/assets/images/logo.png">{{/link-to}}</div>
+    <div class="nav-bar">
+        {{#link-to "blouse" class="nav-link"}}<span class="nav-item">Bridal Blouse</span>{{/link-to}}
+        {{#link-to "chudidhar" class="nav-link"}}<span class="nav-item">Chudidhar</span>{{/link-to}}
+        {{#link-to "bridal" class="nav-link"}}<span class="nav-item">Kids Special</span>{{/link-to}}
+        {{#link-to "uniform" class="nav-link"}}<span class="nav-item">Uniform</span>{{/link-to}}
+    </div>
+    <span class="owner"><b>Proprietor:</b> <br/>Latha Saravanan</span>
+</div>
 {{outlet}}

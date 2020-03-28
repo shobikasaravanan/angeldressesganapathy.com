@@ -1,0 +1,117 @@
+.background {
+    background:#291d2b;
+    color: #9c9c9c;
+    text-align: center;
+}
+
+.title {
+    padding: 50px 0 20px;
+}
+
+.sub-title {
+    text-align: center;
+    font-size: 80px;
+    font-style: italic;
+    margin: 20px auto 40px
+}
+
+.header {
+    display: flex;
+}
+
+.address {
+    line-height: 1.5;
+}
+
+.logo {
+    width: 20%;
+    margin: auto;
+}
+.nav-bar {
+    margin: auto;
+    width: 64%;
+}
+
+.nav-item {
+    padding-left: 40px;
+    border-bottom: 0;
+    font-size: 30px;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.owner {
+    font-size: 30px;
+    color: #702c7b;
+    margin: auto;
+    padding-right: 10px;
+}
+.nav-link {
+    text-decoration: none;
+    color: #291d2b;
+}
+.nav-bar .active {
+    color: #8e389c;
+}
+
+h3 {
+    font-style: italic;
+    font-size: 30px;
+}
+
+.map {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer {
+    font-size: 30px;
+    padding: 30px 0;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .whatsapp {
+  visibility: hidden;
+  margin-left: 10px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  font-size: 20px;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .whatsapp {
+  visibility: visible;
+}
+
+.about-content {
+    margin: auto;
+    font-size: 25px;
+    max-width: 700px;
+    padding: 10px 40px 20px;
+}
+
+.content {
+    max-width: 800px;
+    font-size: 20px;
+    margin: auto;
+}
+
+/* Blouse Route */
+
+.blouse, .chudidhar, .bridal, .uniform {
+    margin: 40px auto;
+}
+
+
